@@ -1,0 +1,42 @@
+Source: kcron
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.2)
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kcron.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kcron.git
+
+Package: kcron
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: ${misc:Depends}, kde-config-cron
+Description: program scheduler frontend - transitional package
+ This package helps migrating from the kcron standalone app to the KDE
+ config module in kde-config-cron.
+ .
+ It is a transitional package that can be safely removed.
+
+Package: kde-config-cron
+Section: admin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cron | anacron
+Suggests: khelpcenter4
+Breaks: kcron (<< 4:4.4)
+Replaces: kcron (<< 4:4.4)
+Description: program scheduler frontend
+ kde-config-cron is a KDE configuration module for scheduling programs to run
+ at specific intervals using cron, the UNIX scheduling service.
+ .
+ This package is part of the KDE administration module.
+
