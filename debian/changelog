@@ -1,3 +1,9 @@
+kcron (4:4.11.2-1r1) UNRELEASED; urgency=low
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Oct 2013 15:13:00 +0200
+
 kcron (4:4.11.2-1) experimental; urgency=low
 
   * First release of kdeadmin after being split by upstream.
