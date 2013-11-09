@@ -1,10 +1,10 @@
-kcron (4:4.11.3-1) UNRELEASED; urgency=low
+kcron (4:4.11.3-1) unstable; urgency=low
 
-  * Update debian/copyright, thanks to Ansgar Burchardt.
   * New upstream release.
+  * Update debian/copyright, thanks to Ansgar Burchardt.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 20:26:28 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 20:32:32 +0100
 
 kcron (4:4.11.2-1) experimental; urgency=low
 
