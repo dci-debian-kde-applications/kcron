@@ -1,5 +1,7 @@
 kcron (4:4.11.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove obsolete installgen file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jan 2014 11:45:29 +0100
 
