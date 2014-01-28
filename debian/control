@@ -8,9 +8,11 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11)
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kcron.git
@@ -20,7 +22,7 @@ Package: kcron
 Section: oldlibs
 Architecture: all
 Priority: extra
-Depends: ${misc:Depends}, kde-config-cron
+Depends: kde-config-cron, ${misc:Depends}
 Description: program scheduler frontend - transitional package
  This package helps migrating from the kcron standalone app to the KDE
  config module in kde-config-cron.
@@ -30,7 +32,7 @@ Description: program scheduler frontend - transitional package
 Package: kde-config-cron
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, cron | anacron
+Depends: cron | anacron, ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter4
 Breaks: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
@@ -39,4 +41,3 @@ Description: program scheduler frontend
  at specific intervals using cron, the UNIX scheduling service.
  .
  This package is part of the KDE administration module.
-
