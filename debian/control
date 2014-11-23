@@ -1,7 +1,7 @@
 Source: kcron
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -12,10 +12,10 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kcron.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kcron.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kcron.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kcron.git
 
 Package: kcron
 Section: oldlibs
@@ -32,7 +32,7 @@ Package: kde-config-cron
 Section: admin
 Architecture: any
 Depends: cron | anacron, ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Breaks: kcron (<< 4:4.4)
 Replaces: kcron (<< 4:4.4)
 Description: program scheduler frontend
