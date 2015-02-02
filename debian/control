@@ -19,7 +19,7 @@ Build-Depends: cmake,
                qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kcron.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kcron.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kcron.git
 
 Package: kcron
