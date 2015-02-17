@@ -1,3 +1,9 @@
+kcron (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 11:54:49 +0100
+
 kcron (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
