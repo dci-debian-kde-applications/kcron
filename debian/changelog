@@ -6,6 +6,7 @@ kcron (4:15.04.3-1~) UNRELEASED; urgency=medium
   [ Jeremy Lainé ]
   * New upstream release (15.04.3).
   * Fix kde-config-cron.install for KF5.
+  * Add a patch to set a valid category for the control module.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:31:16 +0200
 
