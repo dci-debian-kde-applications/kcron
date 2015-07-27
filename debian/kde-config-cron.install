@@ -1,8 +1,7 @@
-usr/lib/kde4/kcm_cron.so
-usr/share/doc/kde/HTML/en/kcron/common
-usr/share/doc/kde/HTML/en/kcron/index.cache.bz2
-usr/share/doc/kde/HTML/en/kcron/index.docbook
-usr/share/doc/kde/HTML/en/kcron/kcronstart.png
-usr/share/doc/kde/HTML/en/kcron/newtask.png
-usr/share/doc/kde/HTML/en/kcron/newvariable.png
-usr/share/kde4/services/kcm_cron.desktop
+usr/lib/*/qt5/plugins/kcm_cron.so
+usr/share/doc/HTML/en/kcron/index.cache.bz2
+usr/share/doc/HTML/en/kcron/index.docbook
+usr/share/doc/HTML/en/kcron/kcronstart.png
+usr/share/doc/HTML/en/kcron/newtask.png
+usr/share/doc/HTML/en/kcron/newvariable.png
+usr/share/kservices5/kcm_cron.desktop
