@@ -1,8 +1,9 @@
-kcron (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
+kcron (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 17:12:52 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 10:53:16 +0100
 
 kcron (4:15.04.2-0ubuntu1) wily; urgency=medium
 
