@@ -1,7 +1,3 @@
 usr/lib/*/qt5/plugins/kcm_cron.so
-usr/share/doc/HTML/en/kcron/index.cache.bz2
-usr/share/doc/HTML/en/kcron/index.docbook
-usr/share/doc/HTML/en/kcron/kcronstart.png
-usr/share/doc/HTML/en/kcron/newtask.png
-usr/share/doc/HTML/en/kcron/newvariable.png
+usr/share/doc/HTML/*/kcron/
 usr/share/kservices5/kcm_cron.desktop

@@ -4,6 +4,19 @@ kcron (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 18:48:28 +0200
 
+kcron (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:11:37 +0100
+
+kcron (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:38:19 +0100
+
 kcron (4:15.04.3-1) experimental; urgency=medium
 
   * Team upload.
@@ -17,6 +30,24 @@ kcron (4:15.04.3-1) experimental; urgency=medium
   * Add a patch to set a valid category for the control module.
 
  -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 13:43:13 +0200
+
+kcron (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:42:47 +0200
+
+kcron (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:01:07 -0700
 
 kcron (4:14.12.2-1) experimental; urgency=medium
 
