@@ -1,0 +1,22 @@
+Description: Set the systemsettings category to "session"
+
+The upstream kcm_cron.desktop file specifies "system-administration" as the
+category for the kde control module, but this category was removed in KF5.
+As a result, the control module is not visible in systemsettings.
+
+Author: Jeremy Lainé <jeremy.laine@m4x.org>
+Bug: https://bugs.kde.org/show_bug.cgi?id=347028
+
+Index: kcron/src/kcm_cron.desktop
+===================================================================
+--- kcron.orig/src/kcm_cron.desktop	2015-09-08 18:57:35.141195805 +0200
++++ kcron/src/kcm_cron.desktop	2015-09-08 18:57:35.109197089 +0200
+@@ -9,7 +9,7 @@
+ X-KDE-Library=kcm_cron
+ X-KDE-ParentApp=kcontrol
+ 
+-X-KDE-System-Settings-Parent-Category=system-administration
++X-KDE-System-Settings-Parent-Category=session
+ 
+ Name=Task Scheduler
+ Name[ar]=مجدول المهامّ

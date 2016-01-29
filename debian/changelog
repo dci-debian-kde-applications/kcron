@@ -1,3 +1,9 @@
+kcron (4:15.12.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:10:49 +0100
+
 kcron (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
@@ -17,6 +23,12 @@ kcron (4:15.08.1-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:20:57 +0100
 
+kcron (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 19:03:30 +0200
+
 kcron (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -29,6 +41,20 @@ kcron (4:15.07.90-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:38:19 +0100
+
+kcron (4:15.04.3-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+
+  [ Jeremy Lainé ]
+  * New upstream release (15.04.3).
+  * Fix kde-config-cron.install for KF5.
+  * Add a patch to set a valid category for the control module.
+
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 13:43:13 +0200
 
 kcron (4:15.04.2-0ubuntu1) wily; urgency=medium
 
