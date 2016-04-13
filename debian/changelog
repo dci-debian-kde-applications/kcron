@@ -1,3 +1,12 @@
+kcron (4:15.12.3-1~1.gbp882356) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8823566c50bcba63fbc22a387e8cab2d58025fd2 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:00:36 +0200
+
 kcron (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
