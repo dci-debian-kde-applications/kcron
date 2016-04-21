@@ -16,7 +16,7 @@ Bug: https://bugs.kde.org/show_bug.cgi?id=347028
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/src/kcm_cron.desktop b/src/kcm_cron.desktop
-index c338267..4c54c17 100644
+index 3bd6c81..2600839 100644
 --- a/src/kcm_cron.desktop
 +++ b/src/kcm_cron.desktop
 @@ -9,7 +9,7 @@ X-KDE-ServiceTypes=KCModule
