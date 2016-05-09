@@ -1,4 +1,9 @@
-Description: Set the systemsettings category to "session"
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:00:19 +0200
+Subject: fix_kcm_category
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
 
 The upstream kcm_cron.desktop file specifies "system-administration" as the
 category for the kde control module, but this category was removed in KF5.
@@ -6,12 +11,15 @@ As a result, the control module is not visible in systemsettings.
 
 Author: Jeremy Lainé <jeremy.laine@m4x.org>
 Bug: https://bugs.kde.org/show_bug.cgi?id=347028
+---
+ src/kcm_cron.desktop | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-Index: kcron/src/kcm_cron.desktop
-===================================================================
---- kcron.orig/src/kcm_cron.desktop	2015-09-08 18:57:35.141195805 +0200
-+++ kcron/src/kcm_cron.desktop	2015-09-08 18:57:35.109197089 +0200
-@@ -9,7 +9,7 @@
+diff --git a/src/kcm_cron.desktop b/src/kcm_cron.desktop
+index 3bd6c81..2600839 100644
+--- a/src/kcm_cron.desktop
++++ b/src/kcm_cron.desktop
+@@ -9,7 +9,7 @@ X-KDE-ServiceTypes=KCModule
  X-KDE-Library=kcm_cron
  X-KDE-ParentApp=kcontrol
  

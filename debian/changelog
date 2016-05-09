@@ -1,8 +1,11 @@
-kcron (4:15.12.2-1~) UNRELEASED; urgency=medium
+kcron (4:16.04.0-1~1.gbpcbf774) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @cbf77472b3e550c15817055f19e104b8d25be650 **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:45:58 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 02:59:14 +0200
 
 kcron (4:15.12.0-1) experimental; urgency=medium
 
