@@ -1,10 +1,6 @@
-kcron (4:16.04.0-1~2.gbp73f82b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @73f82bd0532da5079a4ddce982573c37469ebaee **
+kcron (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @cbf77472b3e550c15817055f19e104b8d25be650 **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
@@ -13,7 +9,7 @@ kcron (4:16.04.0-1~2.gbp73f82b) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:59:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:52:04 +0200
 
 kcron (4:15.12.0-1) experimental; urgency=medium
 
