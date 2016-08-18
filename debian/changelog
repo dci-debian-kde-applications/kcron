@@ -1,3 +1,11 @@
+kcron (4:16.08.0-1~1.gbpc5b61c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c5b61cf86e8910a466fa7466b8d676fe9d3ef57b **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 20:59:15 +0200
+
 kcron (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
