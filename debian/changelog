@@ -1,10 +1,16 @@
-kcron (4:16.08.0-1~1.gbpc5b61c) UNRELEASED; urgency=medium
+kcron (4:16.08.0-1~2.gbpeb80bd) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @eb80bd2cb17476097e6ba2fa48fe55ecfc451068 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c5b61cf86e8910a466fa7466b8d676fe9d3ef57b **
 
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 20:59:15 +0200
+  [ Maximiliano Curia ]
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 29 Aug 2016 11:42:36 +0200
 
 kcron (4:16.04.0-1) unstable; urgency=medium
 
