@@ -16,7 +16,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5iconthemes-dev,
                libkf5kio-dev,
                libkf5xmlgui-dev,
-               likf5doctools-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4),
 Standards-Version: 4.1.0
