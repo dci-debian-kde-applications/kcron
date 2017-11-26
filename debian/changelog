@@ -15,6 +15,7 @@ kcron (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Force the local installation directory to debian/kde-config-cron, so there
     is no need for kde-config-cron.install.
+  * Remove duplicated Priority in the kcron binary.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:32 +0100
 
