@@ -1,5 +1,9 @@
 kcron (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the transitional package kcron. (Closes: #878606)
+  * Stop forcing the local installation directory, since there is only one
+    binary now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jan 2018 15:57:23 +0100
 

@@ -22,16 +22,6 @@ Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kcron.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kcron.git
 
-Package: kcron
-Section: oldlibs
-Architecture: all
-Depends: kde-config-cron, ${misc:Depends}
-Description: program scheduler frontend - transitional package
- This package helps migrating from the kcron standalone app to the KDE
- config module in kde-config-cron.
- .
- It is a transitional package that can be safely removed.
-
 Package: kde-config-cron
 Section: admin
 Architecture: any
